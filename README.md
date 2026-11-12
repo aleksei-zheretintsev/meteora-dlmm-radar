@@ -6,7 +6,7 @@
 
 ## Overview
 
-Meteora DLMM Radar is an independently developed Python automation project designed to discover newly created **Meteora DLMM pools on Solana**, evaluate configurable market and pool conditions, and send compact analytical cards to Telegram. Each card combines pool liquidity and fee metrics, token-level risk signals, links to research tools, and manual refresh controls.
+Meteora DLMM Radar is an AI-assisted Python automation project designed to discover newly created **Meteora DLMM pools on Solana**, evaluate configurable market and pool conditions, and send compact analytical cards to Telegram. Each card combines pool liquidity and fee metrics, token-level risk signals, links to research tools, and manual refresh controls.
 
 **Purpose:** reduce repetitive manual screening of liquidity pools while keeping final trading decisions with the user. **Not** an AI prediction engine or an automated trading/execution bot.
 
@@ -79,6 +79,18 @@ Create a Python environment, install `pip install -r requirements.txt`, copy `.e
 A low Honeypot score does **not** guarantee price safety. Wallet cluster metrics are from InsightX, **not** Bubblemaps; the two providers use different inference methods. `Top Wallet` is the largest available candidate remaining after identifiable technical wallets are excluded, not a verified independent owner. Empty or stale API responses are represented as unavailable rather than fabricated data.
 
 This is a **portfolio and research automation project**, not investment advice.
+
+## Development Approach — AI-Assisted Development
+
+This project was developed using an AI-assisted workflow.
+
+**My contributions:** Project concept, requirements definition, selection of liquidity and risk metrics, monitoring logic, API integration planning, functional testing, data validation, and iterative improvements.
+
+**AI assistance:** Python code generation, implementation support, debugging, integration troubleshooting, and technical documentation.
+
+The project demonstrates practical experience in AI-assisted automation development, API integration, testing, and turning requirements into a working technical solution.
+
+The Python source code was developed with AI assistance rather than written entirely by me.
 
 ## Demo screenshot
 
